@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <body>
+        
+        <center>
+            <div class="bloco">
+                <head>
+                    
+                    
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Login</title>
+               <link rel="stylesheet" href="styles.css">
+            
+            
+            </head>
+                <div class="login-container">
+             <h2>Login</h2>
+             <form id="login-form">
+
+               <div class="user">
+             <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+             </div>
+            
+            
+             <div class="pass">
+            <label for="password">Senha:</label>
+             <input type="password" id="password" name="password" required>
+             </div>
+            
+            
+             <button type="submit">Entrar</button>
+             </form>
+             </div>
+                
+            </div>
+        
+        
+        </center>
+</body>
+
+
+
+<style>
+
+
+label{
+  
+  background-color: rgb(255, 255, 255);
+    color:rgb(77, 9, 116);
+}
+
+
+
+h2{
+    font-size: 60px;
+}
+
+.bloco{
+    border-radius: 10px;
+    background-color: azure;
+    width:40%;
+    padding-bottom: 50px;
+    margin-top: 15%;
+}
+
+body{
+    background-color: rgb(236, 31, 202);
+}
+
+.pass{
+    padding: 10px;
+}
+
+</style>
+
+
+
+
+
+</html>
